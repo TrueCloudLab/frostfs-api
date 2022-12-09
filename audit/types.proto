@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package neo.fs.v2.audit;
 
-option go_package = "github.com/nspcc-dev/neofs-api-go/v2/audit/grpc;audit";
+option go_package = "github.com/TrueCloudLab/frostfs-api-go/v2/audit/grpc;audit";
 option csharp_namespace = "Neo.FileStorage.API.Audit";
 
 import "refs/types.proto";

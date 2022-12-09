@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package neo.fs.v2.acl;
 
-option go_package = "github.com/nspcc-dev/neofs-api-go/v2/acl/grpc;acl";
+option go_package = "github.com/TrueCloudLab/frostfs-api-go/v2/acl/grpc;acl";
 option csharp_namespace = "Neo.FileStorage.API.Acl";
 
 import "refs/types.proto";
