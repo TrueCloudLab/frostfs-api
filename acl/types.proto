@@ -213,6 +213,10 @@ message BearerToken {
     }
     // Token expiration and valid time period parameters
     TokenLifetime lifetime = 3 [json_name="lifetime"];
+
+    // AllowImpersonate flag to consider token signer as request owner.
+    // If this field is true extended ACL table in token body isn't processed.
+    bool AllowImpersonate = 4 [json_name="allow_impersonate"];
   }
   // Bearer Token body
   Body body = 1 [json_name="body"];
